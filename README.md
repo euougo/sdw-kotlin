@@ -1,6 +1,6 @@
-# sdw-kotlin
+##### sdw-kotlin
 
-## Santander Dev Week - Kotlin
+# Santander Dev Week - Kotlin
 
 ### Projeto: Replicar tela Home do App Santander
 
@@ -20,7 +20,7 @@
 - Conceitos de O.O. (Orientação à Objetos).
 - Comunidade online DIO (Discord).
 
-#### Aula 1: Ambiente e Primeiro App - Santander Kotlin Dev Week.
+## Aula 1: Ambiente e Primeiro App - Santander Kotlin Dev Week.
 
 #### Ambiente:
 1. Instalação do Android Studio.
@@ -67,30 +67,41 @@
         https://fonts.google.com/icons
     - importar como new / image asset
 
-8. Layout da home da app do Santander: figma...
+8. Layout da home da app do Santander "figma"
     - cores:
+
         app/res/values/colors.xml
-        ```
+
+        ```xml
         <color name="redPrimary">#cd0001</color>
         <color name="redSecundary">#9d0808</color>
         ```
+
     - themes:
+
         app/res/values/themes.xml
-        ```
+
+        ```xml
         <item name="colorPrimary">@color/redPrimary</item>
         <item name="colorPrimaryVariant">@color/redSecundary</item>
         ```
+
         Mudar:
-        ```
+
+        ```xml
         <style name="Theme.SantanderDevWeek" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         ```
+
         Para:
-        ```
+
+        ```xml
         <style name="Theme.SantanderDevWeek" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         ```
+
     - activity_main:
         app/src/main/res/layout/activity_main.xml
-        ```
+
+        ```xml
         <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="409dp"
@@ -102,77 +113,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
         ```
+
         Essa toolbar foi adicionada pelo modo designer grudando no topo/dir/esq
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Aula 2: Boas práticas para diretrizes de design e layouts no Android - Santander Kotlin Dev Week
+
+### Objetivos
+
+- Principais layouts para criação de telas
+  - LinearLayout;
+  - Constraint Layout;
+- Explorando a paleta de componentes
+- Menus
+- Material Design
+- Evoluindo a tela inicial do App

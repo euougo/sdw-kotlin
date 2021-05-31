@@ -127,3 +127,23 @@
 - Menus
 - Material Design
 - Evoluindo a tela inicial do App
+
+## Aula 3: Padrões arquiteturais e boas práticas de desenvolvimento
+
+- Padrões Arquiteturais MVC / MVVM
+  - MVC - Separa o APP em 3 níveis de responsabilidade
+  - Model - é a lógica ou o core do nosso negócio
+  - View - Exibe as visualizações do nosso App
+  - Controller - Controle do View e Model
+  - Ex:
+    - View: my_view.xml
+    - Controller: MyActivity.kt
+    - Model: Person.kt / Car.kt
+  - Prós: Separa modelos e camadas
+  - Contras: Forte acoplamento regras de negócios e ligação com a view
+- Organização do App com MVVM
+  - MVVM é um padrão derivativo do MVP Pattern
+  - Ajuda separar a camada lógica de UI e vice-versa
+  - Facilita a testabilidade
+  - Maior resiliência em app's Android
+- Internacionalização (i18n)

@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
         mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         buscarContaCliente()
+
+        //throw RuntimeException("Test Crash") // Force a crash
     }
 
     private fun buscarContaCliente() {

@@ -147,3 +147,37 @@
   - Facilita a testabilidade
   - Maior resiliência em app's Android
 - Internacionalização (i18n)
+
+## Aula 4: Monitoramento e publicação de apps Android
+
+- Firebase
+  - Plataforma de monitoração
+  - Conjunto de ferramentas
+  - Ajuda a identificar crashes do app (Analytics)
+  - Auxilia na distribuição de apps
+- Monitoração de performance
+  - Plataforma de monitoramento de performance de recursos do seu aparelho
+  - Recebe insights sobre caracteristicas de desempenho de apps
+  - Ajuda a entendende onde o desempenho precisa ser melhorado
+  - Crashlytics
+    - Ferramenta de relatório de falhas
+    - Ajuda identificar bugs e manter a resiliência do app
+    - Acompanhamento da saúde de versões do app
+    - Possivel visualizar que tipo de device esta sendo atingido
+  - Analytics
+    - Nucleo do firebase
+    - Insights sobre uso do app e envolvimento de usuarios
+    - Gera relatorios dos diversos tipos de analises
+  - App Distribution
+    - Facilita a distribuição do app
+    - Auxilia o piloto do app
+    - Possibilita disponibilizar para usuários chaves antes de ir para a PlayStore
+  - Test Lab
+    - Infraestrutura de testes de apps na nuvem
+    - Testa o app em uma gama elevada de dispositivos
+    - Possibilita realizar testes de robo e testes instrumentados
+
+- Publicação
+  - Como gerar uma APK/Bundle assinada
+  - A importância da key Store
+  - Google Play Console
